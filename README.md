@@ -1,34 +1,59 @@
-# Employee Wage Computation
+💼 **Employee Wage Computation**
 
-This project contains the Employee Wage Computation program implemented in Python.
-The assignment is completed step by step using different Use Cases (UC1 to UC6).  
-Each Use Case is uploaded in a separate Git branch.
+A 🐍 Python project that simulates Employee Wage Calculation using real-world company rules.
 
----
+Each Use Case (UC) is implemented in a separate 🌿 Git branch to demonstrate step-by-step development.
 
-## Use Cases
+📋 **Use Cases**
+UC1 — 🟢 Employee Attendance
 
-UC1 - Check Employee Attendance (Present or Absent)
+🌿 Branch: UC1_Attendance
+📄 File: UC1_Attendance.py
 
-UC2 - Calculate Daily Employee Wage
+📝 **Description:**
+Checks whether an employee is Present or Absent using random attendance logic.
 
-UC3 - Add Part Time Employee Wage
+**UC2 — 💰 Daily Wage Calculation**
 
-UC4 - Implement Switch Case Statement
+🌿 Branch: UC2_DailyWage
+📄 File: UC2_DailyWage.py
 
-UC5 - Calculate Monthly Wage (20 Working Days)
+📝 **Description:**
+Calculates employee daily wage based on working hours.
 
-UC6 - Calculate Wage till condition of 100 Working Hours or 20 Days
+**UC3 — ⏱️ Part-Time Employee Wage**
 
----
+🌿 Branch: UC3_PartTime
+📄 File: UC3_PartTime.py
 
-## Files
+📝 **Description:**
+Adds support for Part-Time employees and computes wages accordingly.
 
-UC1_Attendance.py  
-UC2_DailyWage.py  
-UC3_PartTime.py  
-UC4_MatchCase.py  
-UC5_MonthlyWage.py  
-UC6_MaxHours.py  
+**UC4 — 🔀 Switch Case Implementation**
 
+🌿 Branch: UC4_MatchCase
+📄 File: UC4_MatchCase.py
 
+📝 **Description:**
+Implements wage calculation using Python match-case (switch) statement.
+
+**UC5 — 📅 Monthly Wage Calculation**
+
+🌿 Branch: UC5_MonthlyWage
+📄 File: UC5_MonthlyWage.py
+
+📝 **Description:**
+Computes employee wage for 20 working days in a month.
+
+**UC6 — 🎯 Wage with Working Conditions**
+
+🌿 Branch: UC6_MaxHours
+📄 File: UC6_MaxHours.py
+
+📝 **Description:**
+Calculates wages until either:
+
+✅ 100 Working Hours
+✅ 20 Working Days
+
+condition is reached.
